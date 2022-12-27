@@ -8,4 +8,4 @@ import "./styles/header.scss";
 
 console.log(checkForName);
 
-alert("Hey im working with webpack");
+export { checkForName, handleSubmit };

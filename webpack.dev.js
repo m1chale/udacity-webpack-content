@@ -40,5 +40,7 @@ module.exports = {
   ],
   output: {
     clean: true,
+    libraryTarget: "var",
+    library: "Client",
   },
 };
